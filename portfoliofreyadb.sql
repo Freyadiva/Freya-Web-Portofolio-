@@ -132,11 +132,9 @@ CREATE TABLE IF NOT EXISTS `social_links` (
 DELETE FROM `social_links`;
 /*!40000 ALTER TABLE `social_links` DISABLE KEYS */;
 INSERT INTO `social_links` (`id`, `platform`, `icon_class`, `link`) VALUES
-	(1, 'Twitter', 'fab fa-twitter', '#'),
-	(2, 'Facebook', 'fab fa-facebook-f', '#'),
-	(3, 'YouTube', 'fab fa-youtube', '#'),
-	(4, 'Instagram', 'fab fa-instagram', '#'),
-	(5, 'LinkedIn', 'fab fa-linkedin-in', '#');
+	(1, 'YouTube', 'fab fa-youtube', 'https://youtube.com/@freyadiva?si=h9tOpuVJnvsG0aEr'),
+	(2, 'Instagram', 'fab fa-instagram', 'https://www.instagram.com/frey_ver23/'),
+	(3, 'LinkedIn', 'fab fa-linkedin-in', 'https://www.linkedin.com/in/freyadiva-hanika-26335a2b5/');
 /*!40000 ALTER TABLE `social_links` ENABLE KEYS */;
 
 -- Dumping structure for table portfoliofreyadb.timeline
